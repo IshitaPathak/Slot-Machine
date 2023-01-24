@@ -1,10 +1,10 @@
 import React from 'react';
-import SEqual from './SEqual';
+import SMatch from './SMatch';
 
 const SlotM = (props) => {
 
     if (props.x===props.y && props.x===props.z){
-      return <SEqual/>
+      return <SMatch/>
     }
     else{
       return <>
