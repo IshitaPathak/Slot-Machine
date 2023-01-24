@@ -1,9 +1,5 @@
 import React from 'react';
 
-
-
-
-
 const SMatch = (props) => {
     return (<>
     <div className="inner-slot">
