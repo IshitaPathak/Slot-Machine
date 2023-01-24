@@ -1,10 +1,6 @@
 import React from 'react';
 
-
-
-
-
-const SEqual = (props) => {
+const SMatch = (props) => {
     return (<>
     <div className="inner-slot">
     <h1> {props.x} {props.y} {props.z} </h1>
@@ -14,4 +10,4 @@ const SEqual = (props) => {
     </>);    
 }
 
-export default SEqual;
+export default SMatch;
